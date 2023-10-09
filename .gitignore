@@ -1,0 +1,33 @@
+*.pyc
+*__pycache__
+*egg-info
+trained_models
+
+# PyPI
+build/*
+dist/*
+.idea/
+
+# Docs
+.DS_Store
+_site
+.jekyll-cache
+__pycache__
+.vscode/
+docs/_build/
+docs/build/
+_build/
+/docs/environments/**/*.md
+/docs/environments/**/*.html
+!/docs/environments/**/index.md
+
+
+# Virtual environments
+.env
+.venv
+venv
+
+# 忽略文件夹下的东西（该文件夹不会被忽略）
+model_save/
+logs/
+

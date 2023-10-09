@@ -1,0 +1,1 @@
+from gym_examples.envs.MiniGrid-Dynamic-Obstacles import DynamicObstaclesEnv
