@@ -344,7 +344,7 @@ class DynamicObstaclesEnv(MiniGridEnv):
 
         direct = [[1,0],[-1,0],[0,1],[0,-1]]
         neighbors = []
-        for i in range(4):
+        for i in range(len(4)):
             new_x = self.agent_pos[0] + direct[i][0]
             new_y = self.agent_pos[1] + direct[i][1]
 
