@@ -20,7 +20,7 @@ from minigrid.wrappers import ImgObsWrapper
 
 
 n_train_epoch = 2e6
-env_name = "CustomDynamicObs-v0"
+env_name = "CustomDynamicObs-dynamic-test.py"
 
 model_save_name = ("_".join(
         (
@@ -32,7 +32,7 @@ model_save_name = ("_".join(
 # model = PPO.load("../model_save/" + model_save_name)
 # model_save/CustomDynamicObs-v0_2000000.0.zip
 # 
-model = PPO.load("model_save/CustomDynamicObs-v0_2000000.0.zip")
+model = PPO.load("model_OK\CustomDynamicObs-dynamic_20000000.0.zip")
 # model = PPO.load("model_save/MiniGrid-Dynamic-Obstacles-6x6-v0_200000.0.zip")
 render_mode = "rgb_array"
 env = gym.make(env_name, render_mode=render_mode)
