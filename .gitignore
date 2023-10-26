@@ -30,5 +30,5 @@ venv
 # 忽略文件夹下的东西（该文件夹不会被忽略）
 model_save/
 logs/
-model_OK/
+
 
